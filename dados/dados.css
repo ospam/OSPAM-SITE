@@ -48,8 +48,7 @@ body {
 
 header {
     background-color: white;
-    min-height: 110px;
-    padding-top: 5px;
+    min-height: 95px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;

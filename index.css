@@ -48,8 +48,7 @@ body {
 
 header {
     background-color: white;
-    min-height: 110px;
-    padding-top: 5px;
+    min-height: 95px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -94,7 +93,7 @@ nav a:hover {
     padding: 0px 30px 0px 30px;
     background-color: white;
     width: 875px;
-    height: 492px;
+    height: 600px;
     margin: 2px auto 2px auto;
     box-shadow: 0px 0px 2px black;
 }
@@ -118,6 +117,27 @@ nav a:hover {
 
 .image_card:hover {
     box-shadow: 0px 0px 25px rgb(0, 0, 70);
+}
+
+h2 {
+    border-bottom-width: 2px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
+.relatory_box {
+    margin-top: 4px;
+    display: flex;
+}
+
+.relatory {
+    width: 100px;
+    display:block;
+    margin: 0px;
+}
+
+.relatory_text {
+    margin-left: 4px;
 }
 
 footer {
